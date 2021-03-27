@@ -129,3 +129,11 @@ footer {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 980px) {
+  header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+  }
+}
