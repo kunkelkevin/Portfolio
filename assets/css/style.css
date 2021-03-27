@@ -13,6 +13,9 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: var(--light);
 }
+
+/* Header and nav links */
+
 header {
   text-align: center;
   background-image: radial-gradient(var(--light), var(--primary));
@@ -41,8 +44,10 @@ header ul li a {
 }
 header ul li a:hover {
   color: var(--light);
-  /* border: solid var(--secondary) 1px; */
 }
+
+/* About Section */
+
 #about {
   display: flex;
   flex: 1;
@@ -61,6 +66,9 @@ header ul li a:hover {
 .headshot img {
   width: 100%;
 }
+
+/* Projects section */
+
 #projects {
   width: 90%;
   margin: 0 auto;
@@ -97,6 +105,14 @@ header ul li a:hover {
 .run-buddy {
   background-image: url("../img/hero-bg.jpg");
 }
+
+/* Footer with contact links */
+
+footer {
+  padding: 15px;
+  background-color: var(--primary);
+}
+
 #contact ul {
   display: flex;
   justify-content: space-around;
@@ -110,10 +126,9 @@ header ul li a:hover {
 #contact ul li a:hover {
   color: var(--light);
 }
-footer {
-  padding: 15px;
-  background-color: var(--primary);
-}
+
+/* Responsive screen size changes */
+
 @media screen and (min-width: 575px) {
   #about {
     flex-wrap: nowrap;
