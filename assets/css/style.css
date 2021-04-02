@@ -127,6 +127,9 @@ header ul li a:hover {
 .run-buddy {
   background-image: url("../img/runbuddy-bg.jpg");
 }
+.password-generator {
+  background-image: url("../img/password-generator-bg.png");
+}
 
 /* Footer with contact links */
 
