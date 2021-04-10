@@ -131,6 +131,10 @@ header ul li a:hover {
   background-image: url("../img/password-generator-bg.png");
 }
 
+.code-quiz {
+  background-image: url("../img/code-quiz-bg.png");
+}
+
 /* Footer with contact links */
 
 footer {
@@ -157,6 +161,9 @@ footer {
 @media screen and (min-width: 575px) {
   #about {
     flex-wrap: nowrap;
+  }
+  #about img {
+    width: 40%;
   }
   #contact ul li a,
   header ul li a {
