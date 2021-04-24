@@ -130,6 +130,12 @@ header ul li a:hover {
 .password-generator {
   background-image: url("../img/password-generator-bg.png");
 }
+.daily-planner {
+  background-image: url("../img/daily-planner-bg.png");
+}
+.weather {
+  background-image: url("../img/weather-bg.png");
+}
 
 .code-quiz {
   background-image: url("../img/code-quiz-bg.png");
@@ -140,6 +146,7 @@ header ul li a:hover {
 footer {
   padding: 15px;
   background-color: var(--primary);
+  width: 100%;
 }
 
 #contact ul {
