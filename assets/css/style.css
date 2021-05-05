@@ -124,8 +124,8 @@ header ul li a:hover {
   opacity: 1;
   border-color: var(--primary);
 }
-.run-buddy {
-  background-image: url("../img/runbuddy-bg.jpg");
+.movie-fusion {
+  background-image: url("../img/movie-fusion.png");
 }
 .password-generator {
   background-image: url("../img/password-generator-bg.png");
