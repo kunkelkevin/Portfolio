@@ -74,6 +74,7 @@ header ul li a:hover {
   flex: 1;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 24px;
 }
 #about img {
   width: 100%;
@@ -98,21 +99,21 @@ header ul li a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 #projects a {
   text-decoration: none;
   width: 45%;
   margin: 5px;
   height: 200px;
 }
-#projects a div {
-  display: inline-block;
+#projects div {
+  display: block;
   padding: 5px;
-  width: auto;
-  margin-top: 20px;
-  border: var(--secondary) solid 1px;
-  background-color: var(--third);
+  width: 100%;
+  margin-bottom: 20px;
 }
-#projects a:first-child {
+#projects a:first-child,
+#projects a:nth-child(2) {
   width: 100%;
 }
 .project {
