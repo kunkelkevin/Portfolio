@@ -170,7 +170,7 @@ header ul li a:hover {
 footer {
   padding: 15px;
   background-color: var(--primary);
-  width: 100%;
+  width: 100vw;
 }
 
 #contact ul {
